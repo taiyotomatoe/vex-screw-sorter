@@ -1,0 +1,23 @@
+### Footprint positions - created on 2026-07-06T21:26:38 ###
+### Printed by KiCad version 10.0.0
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                      Package                                                                    PosX       PosY       Rot  Side
+A1        Arduino_Nano_Every       Arduino_Nano                                                           176.4400   -77.2600    0.0000  top
+H1        MountingHole             MountingHole_3.2mm_M3                                                  206.0000   -58.9000    0.0000  top
+H2        MountingHole             MountingHole_3.2mm_M3                                                  206.2000  -112.2000    0.0000  top
+H3        MountingHole             MountingHole_3.2mm_M3                                                  115.0000   -59.6000    0.0000  top
+H4        MountingHole             MountingHole_3.2mm_M3                                                  115.0000  -112.2000    0.0000  top
+J1        Motor_Pin                WAFER-PH2_0-6PWB                                                       200.4500   -87.0000  -90.0000  top
+J2        I2C_LCD                  PinSocket_1x04_P2.54mm_Vertical                                        197.6000   -67.4800  180.0000  top
+J3        Driver_Logic_Pins        PinHeader_1x04_P2.54mm_Vertical                                        126.0600   -89.0000   90.0000  top
+J5        Battery_2                1_25T-1-2A                                                             126.0248  -110.4000    0.0000  top
+J6        Battery_1                1_25T-1-2A                                                             126.2248   -99.6000  180.0000  top
+J7        Conn_01x01               PinHeader_1x01_P2.54mm_Vertical                                        127.5640   -71.2000    0.0000  top
+J8        Conn_01x01               PinHeader_1x01_P2.54mm_Vertical                                        124.0640   -71.2000    0.0000  top
+J9        Buck_In_VCC              PinHeader_1x01_P2.54mm_Vertical                                        166.8000   -62.1000    0.0000  top
+J10       Buck_In_GND              PinHeader_1x01_P2.54mm_Vertical                                        145.3000   -62.1000    0.0000  top
+J11       Buck_Out_5V              PinHeader_1x01_P2.54mm_Vertical                                        166.3000  -113.1000    0.0000  top
+J12       Buck_Out_GND             PinHeader_1x01_P2.54mm_Vertical                                        145.3000  -113.1000    0.0000  top
+SW2       RotaryEncoder_Switch_MP  RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles   176.8000   -60.7000    0.0000  top
+## End

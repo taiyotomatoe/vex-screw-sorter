@@ -1,7 +1,8 @@
-Devlog - Part of it was done on fallout. 
+Devlog - 11h worth of work was done on Fallout. (journals there too)
+More accurate time logs on Lapse/Hackatime. 
 
-3 July - Finished the schematic... (finished p b)
-
+# 3 July: 
+Finished the schematic... 
 
 I finalized the list of the main components for the PCB: 
 Rotary Encoder (leftover. from Blueprint)
@@ -21,9 +22,6 @@ I had difficulties finding a suitable footprint/3d model for these components, s
 
 I also need to find a suitable battery to power this project. It could be done using either. a LiPo battery or a power bank. I will do further research on this. 
 
-
-
-
 #2: 
 Went back to the CAD. I have to fix an issue on the main sorter where the bigger screws would slide off the bottom - Hopefully by making the part the screw body rests on a bit lower, there should be less bumps to throw the screws off course. ![image](https://cdn.hackclub.com/019f25ae-67f0-7051-8ddb-38fdd7332806/Screenshot%202026-07-03%20at%2010.46.43.png)
 I also need to change the wheel a bit, so that the magnet fits well - I think it was too wide, but I don't have any calipers with me - I will test this while the thing is printing and stop it when fit. 
@@ -37,23 +35,24 @@ Back to electronics research - not really sure whether the DRV8833 that I'm plan
 
 A friend suggested using the DRV8871 instead, which seems to be the better option. 
 
-#3: 
-
-#4: Tested out the new wheel thicknesses, and I have a size that alows the magnet to be friction fit well. I will print this final version now. 
+#3/4: Tested out the new wheel thicknesses, and I have a size that alows the magnet to be friction fit well. I will print this final version now. 
 
 I also decided on a [lipo batery ](https://www.amazon.co.jp/-/en/Battery-Rechargeable-Terminal-Bluetooth-Electronics/dp/B0G2MJ5YLF?crid=178IX3BYRONUD&dib=eyJ2IjoiMSJ9.gnWILACyYgdu2AtJWz-Q15tv8IVhpi-14Ny1lzd_shXT0ptj0pcGcrKUds12ozBjwAKugvMiGpk9IJTkMXHU2_VZHPDrXllLtcTKVFVP91Py6K3_Lnz4L3aPuB68flx2GzmH3v33JkZbq6tz48VAcd0oJG9zQUsnbH4Rs79b6K7zrn-ot5wu-mPG1zG1V6uMD_PLa5Wjpar9tGu_CpE7fUpqUYBwllS08eGof5ZvOexPMNX1Hf3_Wsg27bwYR10dlwsjIbl9ozy8f6aR44Yij44YiW27DGfj4A1WN0vInLY.7w6LZ7R5i1eYA33umAx3ulGQ-1bwW1Q_A8D6ao1iwu0&dib_tag=se&keywords=9v+lipo+battery&qid=1783093079&sprefix=9v+lipo+batter%2Caps%2C189&sr=8-18)
 and addded it to the circuit.  
 
 I'm wondering if I can/should power both the arduino and the motor directly from the battery, as I'm worried of a current spike or something when the motor starts spinning. 
 
+Time spent (total for today): 3h30
 
-4 July
+# 4 July
 
 Looking at the buck converters, I just cannot find the footprint for them. I think what I'll do is I'll estimate the destance between the pins, and then bend the pins on the pcb when soldering the buck converter on. (unless someone warns me to do otherwise)
 
 For this one, I'll go with 21mm and 52.7mm apart. 
 
-5 July: 
+Time spent: 1h50
+
+# 5 July: 
 
 I'm reprinting the sorter again - hopefully printing it the other way will make it work better. It seeesm that printing the sorter upside down makes the face less smooth because of the supports, which makes it work less. 
 
@@ -69,4 +68,24 @@ I am slightly worried that the potentiometer will be difficult to control becaus
 
 I made a little mistake not setting the clearances before routing the traces... Hopefully the clearances I calculate aren't much more than what I currently have. 
 Looks like it's fine. 
-I moved onto adding graphics on the silkscreen, then realized all my 3d models were gone, for some reason... 
+I moved onto adding graphics on the silkscreen, then realized all my 3d models were gone, for some reason... ![image](https://cdn.hackclub.com/019f3006-5b89-793c-a08a-8d8e5e0c0ad8/Screenshot%202026-07-05%20at%2010.59.19.png)
+Back in business. ![image](https://cdn.hackclub.com/019f3006-3633-750e-82e7-9cab6b3d4be9/Screenshot%202026-07-05%20at%2004.51.16.png)
+
+Time spent: 3h30
+
+
+# 6 July: 
+
+#1: 
+To make it easier for the user to turn the rotary encoder, I think I should make a knob for it. 
+
+#2: 
+Wrote some code for the LCD screen that'll be used. The encoder code should work, I already worked on it a month ago. 
+I used the map function to map encoder values to 0-155, because I don't want the motor spinning at full speed (255). 
+I also learnt how the I2C comm works, and that it's a form of serial communication alongside UART (the one I was familiar with), and  others. 
+
+#3/4: 
+Some more work on the CAD - changing hole sizes to fit better... etc
+Rendered the Screw Sorter - the final printed verrsion probably won't look as vibrant, but I think it looks alright for now. 
+
+Time spent: 2h55
