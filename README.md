@@ -15,8 +15,7 @@ That's why I made this screw sorter, which works **without requiring a human ope
 # Make your own sorter! 
 All files needed to build this project are provided in their respective folders. 
 
-### Bill of Materials
-[Link](https://docs.google.com/spreadsheets/d/1GzJbDsBg9s3fJ3GwzlsMUPDhf9ZihwElanYWZgdYd-w/edit?usp=sharing)
+
 ### PCB: 
 (Kicanvas wouldn't work...) Routing is a bit of a mess. (I'm a noobie at this)
 ![image](https://cdn.hackclub.com/019f376b-8cdb-7eb8-a17b-e6f79988886d/Screenshot%202026-07-06%20at%2021.33.16.png)
@@ -25,3 +24,18 @@ All files needed to build this project are provided in their respective folders.
 
 ### Firmware: 
 Arduinon code
+
+### Bill of Materials
+[Link](https://docs.google.com/spreadsheets/d/1GzJbDsBg9s3fJ3GwzlsMUPDhf9ZihwElanYWZgdYd-w/edit?usp=sharing)
+
+- XL4015 DCDC step-down converter
+- JGA25-370 DC Reduction Motor with Encoder - 12V, 280RPM
+- LCD Blue Screen IIC/I2C 2004 5V LCD Module for Arduino
+- Alps EC11E Rotary Encoder
+- Arduino Nano Every
+- Male to Female Jumper Wire
+- 2pcs 902540 3.7V Battery LIPO Lipo Battery 800mAh Battery
+- 1.25T-2A: Connector for Lipo Battery
+- WAFER-PH2.0-6PWB
+- 2.54 Pitch PIn sockets 
+- Magnets 5-pack
