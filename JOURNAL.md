@@ -1,5 +1,7 @@
-Devlog - 11h worth of work was done on Fallout. (journals there too)
-More accurate time logs on Lapse/Hackatime. 
+# Devlog: 
+**11h worth of work was done on Fallout. (journals there too)
+More accurate time logs on Lapse/Hackatime:**
+![image](https://cdn.hackclub.com/019f3772-d745-74f2-8a5d-fc60e827cc27/Screenshot%202026-07-06%20at%2021.41.04.png)
 
 # 3 July: 
 Finished the schematic... 

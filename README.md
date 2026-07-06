@@ -17,4 +17,7 @@ All files needed to build this project are provided in their respective folders.
 ### Bill of Materials
 [Link](https://docs.google.com/spreadsheets/d/1GzJbDsBg9s3fJ3GwzlsMUPDhf9ZihwElanYWZgdYd-w/edit?usp=sharing)
 ### PCB: 
-[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Ftaiyotomatoe%2Fvex-screw-sorter)
+(Kicanvas wouldn't work...)
+![image](https://cdn.hackclub.com/019f376b-8cdb-7eb8-a17b-e6f79988886d/Screenshot%202026-07-06%20at%2021.33.16.png)
+
+![image](https://cdn.hackclub.com/019f376b-d5f2-7f86-940e-46a6127fba78/Screenshot%202026-07-06%20at%2021.33.24.png)
