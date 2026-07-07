@@ -1,8 +1,8 @@
-<img width="413" height="314" alt="image" src="https://github.com/user-attachments/assets/cde2abe2-755c-44a8-b0fb-ee58991e2865" /># Devlog: 
+# Devlog: 
 **11h worth of work was done on Fallout. (I didn't submit there, as I didn't finish the project.)
 More accurate time logs on Lapse/Hackatime.
 Fallout Journals are under the journals I did for outpost.** 
-I also had to transfer the images from fallout... 
+### I also had to transfer the images from fallout... I did this manually so it may look messy at times
 
 # 3 July: 
 Finished the schematic... 
