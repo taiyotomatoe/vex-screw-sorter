@@ -1,7 +1,7 @@
 # Devlog: 
 **11h worth of work was done on Fallout. (I didn't submit there, as I didn't finish the project.)
-More accurate time logs on Lapse/Hackatime:**
-Fallout Journals are under the journals I did for outpost. 
+More accurate time logs on Lapse/Hackatime.
+Fallout Journals are under the journals I did for outpost.** 
 
 
 # 3 July: 
