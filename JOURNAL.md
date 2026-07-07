@@ -1,8 +1,8 @@
-# Devlog: 
+<img width="413" height="314" alt="image" src="https://github.com/user-attachments/assets/cde2abe2-755c-44a8-b0fb-ee58991e2865" /># Devlog: 
 **11h worth of work was done on Fallout. (I didn't submit there, as I didn't finish the project.)
 More accurate time logs on Lapse/Hackatime.
 Fallout Journals are under the journals I did for outpost.** 
-
+I also had to transfer the images from fallout... 
 
 # 3 July: 
 Finished the schematic... 
@@ -115,7 +115,8 @@ In Vex robotics, we all use screws. However, it’s easy to throw the screws we 
 My screw sorter is an automatic solution to this problem - just dump all your screws in a box and it’ll automatically sort them by size. 
 
 Other designs sort the screws, but still require a human operator to manually put the screws in place. Example: 
-![Screenshot 2026-05-16 at 11.05.21.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc4ODYsInB1ciI6ImJsb2JfaWQifX0=--bbc318bd6542186c0424978b53b99ef45bbd7f08/Screenshot 2026-05-16 at 11.05.21.png)
+<img width="529" height="392" alt="image" src="https://github.com/user-attachments/assets/14ad80ac-064d-4e36-933c-4c356bc6c2c0" />
+
 
 my goal for this project is to make the process fully automatic. 
 It will use: 
@@ -127,21 +128,24 @@ It will use:
 I might make a custom pcb for it if I decide to add more parts/to make it look nicer. 
 
 This design by Christopher looks interesting, using magnets to pull the screws up from the box. 
-![Screenshot 2026-05-16 at 11.07.28.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc4ODgsInB1ciI6ImJsb2JfaWQifX0=--0f9ece1a9ee5565cf32c0b04205cfa47bd5b729c/Screenshot 2026-05-16 at 11.07.28.png)
+<img width="553" height="291" alt="image" src="https://github.com/user-attachments/assets/f61ca95b-a652-4b51-b6b2-2043a87eac58" />
 
 I already have the bottom "sorting part" - made previously. 
 The way it'll work is that the screws in the box area will get picked up by the wheel, which has magnets inside. This will then bring it up to the dispenser part, where it'll be directed into the sorter area. 
 I am thinking about what would happen if a long screw comes along and it’s upside down. 
 I've also found it difficult making a box design that doesn’t interfere with the wheel. 
-![Screenshot 2026-05-16 at 16.16.09.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc4ODksInB1ciI6ImJsb2JfaWQifX0=--36599887b32439ab7a9703e64b355a616795486b/Screenshot 2026-05-16 at 16.16.09.png)
+<img width="521" height="459" alt="image" src="https://github.com/user-attachments/assets/fe595fb4-9b81-4221-b5df-acdcd4a68fec" />
+
 
 I also need to make the box inclined so that the screws bunch up near the bottom of the wheel. 
 
 I added a “hook” which would theoretically detach the screw from the magnet (i also made the hole for it)
 and a cover to keep it from falling out. 
 In hindsight I don’t think the “hook” needs to be shaped this way.
-![Screenshot 2026-05-20 at 18.38.17.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc4OTAsInB1ciI6ImJsb2JfaWQifX0=--4ecf2a90cfea4c902ae8f2252f7084e1a1c00da7/Screenshot 2026-05-20 at 18.38.17.png)
-![Screenshot 2026-05-20 at 18.38.47.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc4OTEsInB1ciI6ImJsb2JfaWQifX0=--b8c55572032230c3efea15935d7aa5476a0c0e16/Screenshot 2026-05-20 at 18.38.47.png)
+<img width="506" height="486" alt="image" src="https://github.com/user-attachments/assets/31b54b2e-4f72-48a7-808c-90e9916d2042" />
+
+<img width="457" height="482" alt="image" src="https://github.com/user-attachments/assets/be9b4daf-6863-492a-9d68-872557127521" />
+
 
 there is a rail for the screws to slot into place in the round part. 
 
@@ -166,18 +170,19 @@ tomorrow, I will (NOT BECAUSE I WAS TOO BUSY)
 
 today, I mainly focused on the box part. 
 previously, the box was just a flat box, so once there weren’t enough screws, the magnets wouldn’t pull the leftover screws that were too low or too far to get picked up. 
+<img width="561" height="385" alt="image" src="https://github.com/user-attachments/assets/a98c5759-ad57-472f-b770-f82a0fe2200d" />
 
-![Screenshot 2026-05-25 at 23.02.58.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NjUsInB1ciI6ImJsb2JfaWQifX0=--7bd3a2f5ed1151927a5d26ce9004524a27ae707f/Screenshot 2026-05-25 at 23.02.58.png)
 I therfore made the box inclined, so the screws would naturally tend to the wheel. 
 
 I also had to maek sure that it wouldn’t interfere with the other parts of the sorter and hit other screws. 
 
-![Screenshot 2026-05-25 at 23.06.19.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NjYsInB1ciI6ImJsb2JfaWQifX0=--861249510ae9e678c81a9d947eea240ac5a80979/Screenshot 2026-05-25 at 23.06.19.png)
+<img width="539" height="384" alt="image" src="https://github.com/user-attachments/assets/fdb916e3-f1fb-4793-af65-0ff06ffe03ad" />
 
 i then realized how dumb i’d been to just have a box enclosing the whole thing: the screw would just get stuck inside. 🤦
-![Screenshot 2026-05-25 at 23.28.54.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NjcsInB1ciI6ImJsb2JfaWQifX0=--51986c723087ef597d65aa0c43a5ff7ba0939ecc/Screenshot 2026-05-25 at 23.28.54.png)
+<img width="534" height="469" alt="image" src="https://github.com/user-attachments/assets/eff99ee7-fb1b-48e3-8089-2931d330d8b6" />
 
-![Screenshot 2026-05-25 at 23.28.38.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NjgsInB1ciI6ImJsb2JfaWQifX0=--5fa61d3ceedf58b7b47ee1d84b47ac2a8ba3a8ec/Screenshot 2026-05-25 at 23.28.38.png)
+
+<img width="555" height="397" alt="image" src="https://github.com/user-attachments/assets/ea67f786-2c73-4c9e-a89a-3e1938436f40" />
 
 
 I therefore made a slit for the screw to go through. 
@@ -186,16 +191,16 @@ this may cause rpoblems down the line, wiht screws falling out from the slit, es
 NExt I worked on teh hook a little bit, making it a bit less complicated. 
 i also attached as one body like this, although I mgiht need to make some changes when printing this as i can foresee the need for some supports. 
 I’ll go for this for the moment because I want to test this section, without having to figure out a complicated mechanical attachment system (That’d be more efficient/refined, so work for another day)
-
-![Screenshot 2026-05-25 at 23.38.27.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NjksInB1ciI6ImJsb2JfaWQifX0=--745523e2aeac74c57e67feb60f31748a8f29335d/Screenshot 2026-05-25 at 23.38.27.png)
+<img width="529" height="461" alt="image" src="https://github.com/user-attachments/assets/10ccb952-5256-40c0-b864-0cf93ff60a8b" />
 
 this is the current result. 
-![Screenshot 2026-05-25 at 23.38.46.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NzAsInB1ciI6ImJsb2JfaWQifX0=--315ccf5bb3aa4bc7a46e4f5f6a3992e188be6261/Screenshot 2026-05-25 at 23.38.46.png)
+<img width="530" height="479" alt="image" src="https://github.com/user-attachments/assets/ae5ac08f-2ab3-4ada-a083-e9e24742a84f" />
+
 
 i also did some cleaning up, renamign the bodies. 
 I should rename the sketches one day too.  
-![Screenshot 2026-05-25 at 23.53.28.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NzEsInB1ciI6ImJsb2JfaWQifX0=--23e61ec5f2326583e5b3452fe40cc7150d8ac399/Screenshot 2026-05-25 at 23.53.28.png)
-(Ignore the other bodies, they're not needed and I'll get rid of them soon)
+<img width="239" height="479" alt="image" src="https://github.com/user-attachments/assets/02d3956d-1f18-4523-935c-7c6910a9094a" />
+
 
 
 the takss now are: 
@@ -208,7 +213,8 @@ I will test this on a breadboard for the moment, I am also considering implement
 I previously had a design which worked, but it was a bit clunky and required some taping. 
 I will therefore rework this.
 
-![Screenshot 2026-05-25 at 23.38.56.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2NzIsInB1ciI6ImJsb2JfaWQifX0=--d02ad18f8324e0ce737b81f25467b0e58bae9044/Screenshot 2026-05-25 at 23.38.56.png)
+<img width="533" height="323" alt="image" src="https://github.com/user-attachments/assets/dde19bd2-1542-49d3-9a17-ab647f87444f" />
+
 
 I also want to learn how to deal with sketches in fusion360, such as when I insertt a new component and then want to edit a previosu sketch with the new component in mind: (the new component doedsnt show)
 
@@ -225,24 +231,28 @@ Otherwise, I improved the body separation for the loader. This allows the parts 
 To attach the hook, I created a hole and will fit a bar into it, as seen in the images below. 
 I also incorporated tolerances, which I will need to test as well. 
 
-![Screenshot 2026-05-26 at 23.40.29.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjEzMTksInB1ciI6ImJsb2JfaWQifX0=--f126b585551b46da34e0798f9eeb8ddc73bdab53/Screenshot 2026-05-26 at 23.40.29.png)
+<img width="186" height="124" alt="image" src="https://github.com/user-attachments/assets/73d96516-3e6b-4f75-9c7e-3c802dddb359" />
 
-![Screenshot 2026-05-26 at 23.39.28.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MDgsInB1ciI6ImJsb2JfaWQifX0=--540bf76acc2d6ddecd8a08d06900796bf809f04c/Screenshot 2026-05-26 at 23.39.28.png)
 
-![Screenshot 2026-05-26 at 23.41.31.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MDksInB1ciI6ImJsb2JfaWQifX0=--473f74dc58378f8025a25a3e9e0047887f3186ac/Screenshot 2026-05-26 at 23.41.31.png)
+<img width="530" height="325" alt="image" src="https://github.com/user-attachments/assets/056d3366-a10b-4906-bb18-3e7d29f9ae99" />
 
-![Screenshot 2026-05-26 at 23.39.48.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MTAsInB1ciI6ImJsb2JfaWQifX0=--66150ba65db50417e9035249086468fcb4dadbd6/Screenshot 2026-05-26 at 23.39.48.png)
 
-![Screenshot 2026-05-26 at 23.44.18.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MTEsInB1ciI6ImJsb2JfaWQifX0=--daf9bedfe40e0ae9543224ea811e52475352c06a/Screenshot 2026-05-26 at 23.44.18.png)
+<img width="550" height="412" alt="image" src="https://github.com/user-attachments/assets/2f31c962-7112-43a1-8c89-0cf8d9c02593" />
+
+<img width="493" height="477" alt="image" src="https://github.com/user-attachments/assets/75397a74-3a00-4a41-93c3-40711e890e29" />
+
+<img width="526" height="483" alt="image" src="https://github.com/user-attachments/assets/e904b9ea-71b3-4b0e-b6cd-4db617d8ffbd" />
+
 
 Below was my first idea at attaching the curved part with the first part of the funnel. 
 This won’t work, and my current solution I have in mind is: 
 hot glue the parts together
 however this will make testing more inconsitent/harder in my opinion, so I will figure out a better way tomorrow. 
 
-![Screenshot 2026-05-26 at 23.44.18.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MTMsInB1ciI6ImJsb2JfaWQifX0=--82b657ca9ebf7f598c82c9a2b30d29d8c092f495/Screenshot 2026-05-26 at 23.44.18.png)
+<img width="513" height="483" alt="image" src="https://github.com/user-attachments/assets/77686501-1959-4e9a-a93e-8eab2295f0c4" />
 
-![Screenshot 2026-05-27 at 15.31.20.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MTQsInB1ciI6ImJsb2JfaWQifX0=--2403984fe91db4202f27661459fd0129348d3a74/Screenshot 2026-05-27 at 15.31.20.png)
+
+<img width="518" height="460" alt="image" src="https://github.com/user-attachments/assets/75a51458-d60a-4782-997a-f98766239f07" />
 
 I also need to think about how to attach the motor to the wheel, as there are many parts around that miht interfere with the motor attachment. 
 
@@ -267,28 +277,32 @@ do some research on the motors/start designing the pcb???
 ### 30 MAY: the loading part has been printed and is being tested! 
 
 Firstly, I added some supporting pillars for the box. This can however be replaced by a book or something for testing. 
-![Screenshot 2026-05-30 at 10.33.36.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5OTIsInB1ciI6ImJsb2JfaWQifX0=--dcabda1faf4551c78d7b671d4ac7e953ddfdc11c/Screenshot 2026-05-30 at 10.33.36.png)
+<img width="540" height="367" alt="image" src="https://github.com/user-attachments/assets/2642cdb8-0e7a-4f26-a451-8b68a72797dd" />
+
 
 i also found a DC motor to use - it’s just a 12V motor that I have lying around at the moment - that’d be the easiest to use for now. I make the shaft hole for it in the wheel. 
 
 I should, in the future, allow the wheel to be attached to the box, so the distance stays constant (easier for end user)
 But I will do this after I figure out what other parts I need and where to put them, like the battery and cables.. 
+<img width="119" height="129" alt="image" src="https://github.com/user-attachments/assets/c28ebac7-c6c2-4899-9594-a7827b15dedf" />
 
-![Screenshot 2026-05-30 at 10.41.47.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5OTMsInB1ciI6ImJsb2JfaWQifX0=--93ace1f77673f238b5ffd42704c9ce6e4d46ca8a/Screenshot 2026-05-30 at 10.41.47.png)
-![Screenshot 2026-05-30 at 10.40.55.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5OTQsInB1ciI6ImJsb2JfaWQifX0=--96d0f1f8dbf660cfe7576573cdd2109bceb3bb0a/Screenshot 2026-05-30 at 10.40.55.png)
+<img width="342" height="448" alt="image" src="https://github.com/user-attachments/assets/56cbe671-98fa-4bca-b1fb-6060e3dcff56" />
+
 
 The sorting part requires the main sorter and the containers that will store the screws after they’re sorted. image: 
 
+<img width="540" height="273" alt="image" src="https://github.com/user-attachments/assets/e79d24bc-7e19-4e02-b1fb-37675de92dd7" />
 
-![Screenshot 2026-05-30 at 11.07.33.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5OTUsInB1ciI6ImJsb2JfaWQifX0=--44cbef6ee5da49421ec011a340132d95a1d3b89d/Screenshot 2026-05-30 at 11.07.33.png)
 
 the mian challenge was having the containers not hit the screw sorter, as the top sorting bit has to be slanted to work properly (the screws tend to get stuck if it’s not inclined)
 
 I first made the other slot for the screw sorter to be held in place. 
 
-![Screenshot 2026-05-30 at 10.50.59.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5OTYsInB1ciI6ImJsb2JfaWQifX0=--3f3b875de4b2147ec38d707181e4100b694bbd02/Screenshot 2026-05-30 at 10.50.59.png)
+<img width="540" height="395" alt="image" src="https://github.com/user-attachments/assets/9d2b3a3d-7ec2-4321-b567-dd693c7dde4b" />
 
-![Screenshot 2026-05-30 at 10.53.01.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5OTcsInB1ciI6ImJsb2JfaWQifX0=--46b8a6a093958f4f4d8ef925d493bf211ba45688/Screenshot 2026-05-30 at 10.53.01.png)
+
+<img width="539" height="209" alt="image" src="https://github.com/user-attachments/assets/4c6011f0-c23a-4ee6-8e06-a6aa70b53a1f" />
+
 
 I had to make some minor adjustments here to make sure the sorter would hold in place, using the cross-section analysis tool in Fusion. 
 
@@ -296,9 +310,11 @@ But then I realized I could extend this hole so that it goes further down, givin
 
 This wans’t enough for the containers, however, so i redesigned them (based off the projections of the old design) to fit more nicely with the main sorter. 
 
-![Screenshot 2026-05-30 at 11.19.13.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDAsInB1ciI6ImJsb2JfaWQifX0=--736fae76ea64eb11b36c4d03d97a0c929ad75aac/Screenshot 2026-05-30 at 11.19.13.png)
+<img width="557" height="319" alt="image" src="https://github.com/user-attachments/assets/a10a2b86-127a-47fc-b42e-4ea4eb135f09" />
 
-![Screenshot 2026-05-30 at 11.19.19.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDIsInB1ciI6ImJsb2JfaWQifX0=--85b97f4fee3574641cbcaeb1b0547559478e56db/Screenshot 2026-05-30 at 11.19.19.png)
+
+<img width="537" height="323" alt="image" src="https://github.com/user-attachments/assets/1081e280-b683-4617-8505-887a39f3e174" />
+
 
 The sorter, along with the containers, are now ready to be printed. I’ll only print one for now to not waste too much filament. 
 
@@ -306,7 +322,7 @@ The sorter, along with the containers, are now ready to be printed. I’ll only 
 I came back and worked on the wheel. I firstly added a holder for the motor. 
 
 
-![Screenshot 2026-05-30 at 15.01.52.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDMsInB1ciI6ImJsb2JfaWQifX0=--2aab95847a5fad17765022fb67e075e6d912e97a/Screenshot 2026-05-30 at 15.01.52.png)
+<img width="550" height="445" alt="image" src="https://github.com/user-attachments/assets/a4a2155b-0081-4b39-a03b-ae208cd59195" />
 
 
 The wheel should be at a set distance from the box, so that it works well; 
@@ -318,26 +334,30 @@ b. tested easily individually.
 Therefore, I thought of making the wheel part attach onto the box, like this. 
 I now realize that this will probably cause the motor to fall over in the direction of the wheel, due to the weight of the motor. I can, however, just put a book under to keep it balanced. 
 
-![Screenshot 2026-05-30 at 15.04.31.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDQsInB1ciI6ImJsb2JfaWQifX0=--1a6c352e4dfb819e4844e285e937340ea0183ec3/Screenshot 2026-05-30 at 15.04.31.png)
+<img width="522" height="468" alt="image" src="https://github.com/user-attachments/assets/62d65ac7-c390-4290-9940-80b2883d52ff" />
+
 
 I also attempted to run some stress tests (simulations) on the system, to test the durability, especially of the shaft that holds the motor holder and the box together. 
 However it turns out it’s a bit complicated, and 3d printers don’t completely fill up the bodies with filament anyways, so it’d be underweight by a percentage. therefore running tests, even if i could, would most probably overestimate the strength of this part. I’ll try the simulation feature out one day on another project. 
+<img width="547" height="445" alt="image" src="https://github.com/user-attachments/assets/7f3a2648-fcef-4fcc-b4c0-684a5c75c2b3" />
 
-![Screenshot 2026-05-30 at 14.15.23.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDUsInB1ciI6ImJsb2JfaWQifX0=--e57923665edbe56430b8976fdd7515de4ede6a8f/Screenshot 2026-05-30 at 14.15.23.png)
 
 NExt I decided I want to test the loader part. I made it so that the loader can slot into the sorter holder, so that I can test it individually. 
 
-![Screenshot 2026-05-30 at 14.21.15.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDYsInB1ciI6ImJsb2JfaWQifX0=--ad882e145213df12a588fae83747e10a404157a2/Screenshot 2026-05-30 at 14.21.15.png)
+<img width="276" height="457" alt="image" src="https://github.com/user-attachments/assets/8d447774-0ee0-4d73-9dcc-d6590c420eb6" />
 
-![Screenshot 2026-05-30 at 14.23.32.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDcsInB1ciI6ImJsb2JfaWQifX0=--7426ea84089a66b02d1ac4d08b955e42e8be6054/Screenshot 2026-05-30 at 14.23.32.png)
+<img width="408" height="483" alt="image" src="https://github.com/user-attachments/assets/b760fd8b-7cb6-41e8-b62d-239bf31ddf4f" />
+
 
 I also split up the loader into two parts, so I can test those individually, and added a coupling attachment. 
 
-![Screenshot 2026-05-30 at 14.37.27.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMDgsInB1ciI6ImJsb2JfaWQifX0=--8c592ab4284f2413bda5fe151d707dd1b214433c/Screenshot 2026-05-30 at 14.37.27.png)
+<img width="539" height="363" alt="image" src="https://github.com/user-attachments/assets/0aef7b72-1853-4c50-8260-91625065ff7d" />
+
 
 I am now going to test these parts of the system, and hopefully they work! 
 the last step is 3d printing them, for which I luckily have a 3d printer for at school. I put the file into bambustudio and I am now going to wait ~3 hours for this to print. Hopefully it works! ~~(Now time to stop procrastinating and do my homework…)~~
-![Screenshot 2026-05-30 at 23.36.19.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMTEsInB1ciI6ImJsb2JfaWQifX0=--f73bad71c5f4e2e4b47c27a103d6d815fd6514cb/Screenshot 2026-05-30 at 23.36.19.png)
+<img width="542" height="329" alt="image" src="https://github.com/user-attachments/assets/46f8433b-c3bc-4a3e-848f-f1c7b606b6e8" />
+
 
 **[3rd recording]**
 So I spent some time testing the loading mechanism that I printed off. Despite some difficulties when removing the supports that came with the print, resulting in me cracking a bit of the plastic, it seemed to work well. 
@@ -358,7 +378,8 @@ I therefore added 2 things to the design of the motor holder:
 - More support for the motor holder
 - A stopper so user can attach it to the box easily
 
-![Screenshot 2026-05-30 at 23.27.09.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMTgsInB1ciI6ImJsb2JfaWQifX0=--d09fe2898f640904e146dab08926367832c8a0bd/Screenshot 2026-05-30 at 23.27.09.png)
+<img width="539" height="436" alt="image" src="https://github.com/user-attachments/assets/2963f853-77cc-4948-9054-0001cdf8c34b" />
+
 
 
 
@@ -384,8 +405,10 @@ It's basically just a rectangular holder for the actual screw sorter body.
 
 I didn't take screenshots but I had difficulties with extruding (removing) some of the old parts of the container, but I was able to do so, and make a extrusion and a hole so the sorter would be held by the container. 
 
-![Screenshot 2026-05-27 at 18.12.51.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMjAsInB1ciI6ImJsb2JfaWQifX0=--5691e0c970884b283b25bc18292dd9e79f794d39/Screenshot 2026-05-27 at 18.12.51.png)
-![Screenshot 2026-05-27 at 18.13.04.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMjEsInB1ciI6ImJsb2JfaWQifX0=--8381890aedbb69d27597fd5c40414d164e6ff970/Screenshot 2026-05-27 at 18.13.04.png)
+<img width="540" height="355" alt="image" src="https://github.com/user-attachments/assets/eae06665-e550-4a4b-a16a-ea95ee34f038" />
+
+<img width="543" height="359" alt="image" src="https://github.com/user-attachments/assets/df0710eb-10cc-44cc-90cf-8cd256172dfe" />
+
 
 
 ### Recording Links
@@ -419,17 +442,18 @@ I will now make the pcb/schematic for this (hopefully successfully)
 Before that, a few things to clean up in the CAD: 
 
 Here I added a holder for the motor to keep it in the right place. I might add one on the other side as well. I hope I didn’t make it too small. 
-![Screenshot 2026-06-04 at 21.26.45.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNjYsInB1ciI6ImJsb2JfaWQifX0=--55a6ee1d7e5a9042e69d5b4f1d5a2a7197fcb15d/Screenshot 2026-06-04 at 21.26.45.png)
+<img width="411" height="332" alt="image" src="https://github.com/user-attachments/assets/22525f03-6d9e-4a00-aa4c-529bfb790a61" />
+<img width="421" height="399" alt="image" src="https://github.com/user-attachments/assets/e656fafd-e7e1-467e-9a1e-2303044fdb29" />
 
-![Screenshot 2026-06-04 at 21.45.27.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNjcsInB1ciI6ImJsb2JfaWQifX0=--d0550853a8901d53f77852c80d6f02058157419c/Screenshot 2026-06-04 at 21.45.27.png)
 
 
 I then realized I should probably just make a proper motor mount. So I made one. 
 Therefore I got rid of those two things on the back because that’d make it impossible to put the motor in 🤦
 The gap between teh wheel and the motor is very thin, so I hope that the mount isn’t too thin. To make it a big stronger (I hope), I attached it all the way around the motor, like this. 
 
-![Screenshot 2026-06-04 at 21.45.36.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNjgsInB1ciI6ImJsb2JfaWQifX0=--76d147f35853ee89350ebba69e1f6fdc9f6b9751/Screenshot 2026-06-04 at 21.45.36.png)
-![Screenshot 2026-06-04 at 21.46.05.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNzAsInB1ciI6ImJsb2JfaWQifX0=--68fc697a33cac6116f84a2103495c0db32576645/Screenshot 2026-06-04 at 21.46.05.png)
+<img width="417" height="329" alt="image" src="https://github.com/user-attachments/assets/58d7fb4c-64e9-48db-9bd8-d2ae2b7a7e53" />
+
+<img width="425" height="281" alt="image" src="https://github.com/user-attachments/assets/3d374c09-c650-4fdf-b7b8-7c82f06967bc" />
 
 I’ll try to get the wheel and this holder printed tomorrow - I’ll put the magnets in and I’ll then plug in a motor and test it out. I really hope it works. 
 
@@ -441,14 +465,17 @@ getting started with the electronics:
 
 - I searched for a potentiometer, but didn't really know what to look for - will do some research tomorrow and come back to this
 
-![Screenshot 2026-06-04 at 22.09.41.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNzEsInB1ciI6ImJsb2JfaWQifX0=--19870b9dc078810d3a75e4ecc665b50742d064f9/Screenshot 2026-06-04 at 22.09.41.png)
+<img width="407" height="340" alt="image" src="https://github.com/user-attachments/assets/d1ecc4fd-fc98-4903-b0f2-cd5ef7cd26a9" />
+
 
 i was reading the datasheet (hopefully the right one - the image didn’t look the same as the one I have..)
 So I need to decide a microcontrolller that can handle both the motor and the lcd. 
 Im hoping this means that the power in for the encoder should be 3.3V. 
-![Screenshot 2026-06-04 at 23.13.05.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNzIsInB1ciI6ImJsb2JfaWQifX0=--78843b82f09ae086093bc4efaaf3445330eabdee/Screenshot 2026-06-04 at 23.13.05.png)
+<img width="398" height="327" alt="image" src="https://github.com/user-attachments/assets/79aa86b7-2223-45fd-8424-7c1f153544db" />
 
-![Screenshot 2026-06-04 at 22.16.05.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNzMsInB1ciI6ImJsb2JfaWQifX0=--58fbc0bc7fbd3c7855f57ef3f554e22d2ddbcf9b/Screenshot 2026-06-04 at 22.16.05.png)
+
+<img width="418" height="482" alt="image" src="https://github.com/user-attachments/assets/167b5c08-67b3-4a6d-9ae2-87a025d250f0" />
+
 
 Found an example circuit. the colours are a bit differnet but. 
 Looks like encoders have two signal outputs: i don’t fully understand why, but it has to do with this thing being a "quadrature encoder", I will do some more research on this tomorrow. 
@@ -456,14 +483,15 @@ Looks like encoders have two signal outputs: i don’t fully understand why, but
 i’ve been trying to find the correct size for this connector, so that I can use the correct footprint in my pcb. unfortunately I cant so ill just measure it tomorrow when I have a caliper. 
 also for some silly reason I imported the arduino nano symbol + footprint only to realize that Kicad already has it. Duh. 
 
-![Screenshot 2026-06-04 at 22.32.29.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNzQsInB1ciI6ImJsb2JfaWQifX0=--1eceb94cb50a46540d9026ad4cca72177f928544/Screenshot 2026-06-04 at 22.32.29.png)
+<img width="400" height="387" alt="image" src="https://github.com/user-attachments/assets/b7ae18bd-8e3c-43b8-9b45-f0e526942152" />
+
 
 I’m not very experienced in electronics in general, so I will do some testing of the LCD screen on its own. 
 Additionally I need to figure out a way to get the footprint/symbol for the motor connections. THis may mean I have to make it myself in the symbol/Footprint editor - I’d just like to confirm this with a friend. I also need to learn more about potentiometers and what values I should be looking at when deciding one. 
 
 Depending on this testing, I can find out how many pins all these components will need, and I can choose a suitable microcontroller for it. The idea is that this PCB will fit somewhere here, where the LCD screen + potentiometer can be accessed by the user easil.y 
+<img width="422" height="291" alt="image" src="https://github.com/user-attachments/assets/e07df20a-21ac-4f75-90aa-0b06a97b2af0" />
 
-![Screenshot 2026-06-04 at 23.09.30.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyNzUsInB1ciI6ImJsb2JfaWQifX0=--15ab3893d59ba0c80c3ad92f1e59b156555e6b1e/Screenshot 2026-06-04 at 23.09.30.png)
 
 **So to recap the next tasks are: **
 - Print the motor holder + Wheel
@@ -493,19 +521,22 @@ I made the other holes for the wheel, so that I can print it and test it with th
 
 I’m a bit worried about the wheel and its rigidity - this might be too thin. 
 
-![Screenshot 2026-06-05 at 10.32.48.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4NzYsInB1ciI6ImJsb2JfaWQifX0=--bb5e8aca82b7bf886195e9b1826c2488d97bce3a/Screenshot 2026-06-05 at 10.32.48.png)
+<img width="408" height="341" alt="image" src="https://github.com/user-attachments/assets/e02c1a27-fcac-48bb-8b35-727ccd07a1fa" />
+
 
 I measured the dimensions of this area (the box, under it) - this is probably where the PCB will go. 
 as well as the LCD. 
 
-![Screenshot 2026-05-30 at 14.01.32.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4NzksInB1ciI6ImJsb2JfaWQifX0=--4583a2def87b6c2afe411839c40ae4e7f320e2e4/Screenshot 2026-05-30 at 14.01.32.png)
+<img width="426" height="422" alt="image" src="https://github.com/user-attachments/assets/d63bdd6e-82d5-40a0-9be4-2d7f1ba47181" />
+
 
 
 I’ve been looking for potentionmeters - the first one I found doesn’t seem to have a datasheet. Will need to do more research tomorrow. 
 
 I did some research on the LCD Screens, and it turns out the easiest way is to use an “I2C Backpack module”. I Found one of these lying around, so I can put it in my design. 
 
-![Screenshot 2026-06-05 at 15.24.01.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4NzcsInB1ciI6ImJsb2JfaWQifX0=--c4d980212957791855b504a7ec179c9f78d204d8/Screenshot 2026-06-05 at 15.24.01.png)
+<img width="413" height="314" alt="image" src="https://github.com/user-attachments/assets/5158d238-e771-4564-a647-d98d5fabbdb0" />
+
 
 I will connect this via jumper wires to the PCB. 
 
@@ -520,8 +551,8 @@ Therefore I wasn’t able to test the LCD Screen today - I’ll get back to it s
 Reading the motor datasheet further: 
 
 I understand that the stall current is the highest current my circuit should be able to handle. 
+<img width="403" height="231" alt="image" src="https://github.com/user-attachments/assets/55d576df-e109-4370-8afe-2905af0bd8e7" />
 
-![Screenshot 2026-06-05 at 21.39.22.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4ODMsInB1ciI6ImJsb2JfaWQifX0=--d049b73910213defc2f136af7169bea414a24e53/Screenshot 2026-06-05 at 21.39.22.png)
 
 For the electronics, I also need to find a battery that I can use. 
 
@@ -534,11 +565,13 @@ I just need to find a suitable battery and the symbol for the driver so I can fi
 
 I also sent three parts to print, so that I can test them later on. 
 
-![Screenshot 2026-06-05 at 15.29.11.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4ODQsInB1ciI6ImJsb2JfaWQifX0=--ba34a9f6fded619ccba9af5c0ba70f84eda6af26/Screenshot 2026-06-05 at 15.29.11.png)
+<img width="418" height="335" alt="image" src="https://github.com/user-attachments/assets/457288ce-ed4a-4ed2-9dd1-7596e393b95c" />
+
 I printed a reduced version to preserve filament and time. 
 I just need a way to test if this holder works.
 
-![Screenshot 2026-06-05 at 16.26.59.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4ODUsInB1ciI6ImJsb2JfaWQifX0=--4b85644485dc06e33d926daa28a1e7cfe48d46a0/Screenshot 2026-06-05 at 16.26.59.png)
+<img width="419" height="445" alt="image" src="https://github.com/user-attachments/assets/a69bfe8d-1c6e-4546-83b0-426afe7be0f8" />
+
 
 Tomorrow I will: 
 
@@ -571,24 +604,26 @@ I go to test the parts I printed earlier, to great success.
 Removing the supports took a while, because they were in small holes. 
 
 I didn’t have any better tools available so I had to use this bit of my nail clipper to take out this tiny support. 
-
-![IMG_3757.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NjAsInB1ciI6ImJsb2JfaWQifX0=--0b9c85ce6a24f7e6f0fa724c44cab023fb547fb9/IMG_3757.jpeg)
+<img width="353" height="469" alt="image" src="https://github.com/user-attachments/assets/6d2c2741-5801-4aeb-b374-30a89d476e13" />
 
 The Loader part1 worked 95% of the time, and it only had occasional screws getting stuck, especially the smaller ones. Hopefully this issue resolves itself when I test this with a motor. Otherwise, a solution would just be to maybe filet/make this gap a bit wider. 
 
-![IMG_3756.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NjEsInB1ciI6ImJsb2JfaWQifX0=--90a9332ee0eddfdccd5f3d19fcf38a7a5d51d03e/IMG_3756.jpeg)
+<img width="355" height="480" alt="image" src="https://github.com/user-attachments/assets/9551d24d-c3aa-4522-8be6-33f55bbe1872" />
+
 
 The two loader parts integrated well with eachother, which I’m very happy about. 
 
-![IMG_3760.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NjQsInB1ciI6ImJsb2JfaWQifX0=--a4f54aca36e42489e51da21463097bb08ea7f655/IMG_3760.jpeg)
+<img width="369" height="482" alt="image" src="https://github.com/user-attachments/assets/bf1bb3df-bf10-4fa1-9016-11f2226d3ef2" />
 
 the motor hub worked well as well - it fit well. 
 
-![IMG_3765.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NjUsInB1ciI6ImJsb2JfaWQifX0=--f592d2458866ced2f7ae801120242b8bcd07cce9/IMG_3765.jpeg)
+<img width="355" height="493" alt="image" src="https://github.com/user-attachments/assets/600df0b2-1070-4c6b-b0e4-a080972a2cfb" />
+
 
 
 the wheel needs to be improved, however, as it had two issues: 
-![IMG_3759.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NjYsInB1ciI6ImJsb2JfaWQifX0=--b959023cfde4c6b4b4cabf6f1cc27bccb59b3102/IMG_3759.jpeg)
+<img width="358" height="473" alt="image" src="https://github.com/user-attachments/assets/f2e46700-5c45-4aaa-b44f-1001dbb0a658" />
+
 
 1. too thick: the magnet was to thin for the wheel, so the screws would get stuck in between the wheel and the magnet. I will simply make the wheel a bit thinner. 
 
@@ -599,25 +634,27 @@ I for some reason forgot to add a slight clearance: i couldn’t put the motor s
 
 I started by making the wheel thinner, according to the magnet’s dimensions (measured properly this time)
 
-![Screenshot 2026-06-06 at 00.19.37.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NjksInB1ciI6ImJsb2JfaWQifX0=--79772260325a68586083b278b5c2f2eb89a119b6/Screenshot 2026-06-06 at 00.19.37.png)
+<img width="409" height="300" alt="image" src="https://github.com/user-attachments/assets/7906a5fb-d0f6-4abe-b9c5-039609cc0918" />
 
+<img width="414" height="299" alt="image" src="https://github.com/user-attachments/assets/a7970ba7-a516-48cd-9e8d-65c1539a306d" />
 
-![Screenshot 2026-06-06 at 00.26.09.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NzAsInB1ciI6ImJsb2JfaWQifX0=--f1b51f74dc0a553cd8d3097416d2b0ef5bd7a69c/Screenshot 2026-06-06 at 00.26.09.png)
 
 I added clearances (Not “tolerances”) to my motor shaft extrusion, using the offset tool (thank goodness I found out this exists)
 
 I also made this part a bit smaller to accomodate for the motor irl (i stopped the print a bit early, so the current version I have looks a bit too small, but measurements tell me I should do this)
 
-![Screenshot 2026-06-06 at 00.33.00.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NzEsInB1ciI6ImJsb2JfaWQifX0=--f098ab2194f0fd3f66e59c3a62a31a1d93355d0e/Screenshot 2026-06-06 at 00.33.00.png)
+<img width="416" height="333" alt="image" src="https://github.com/user-attachments/assets/152aaa0f-f910-43f7-9691-a74726e361e4" />
 
 
-![Screenshot 2026-06-06 at 00.42.36.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NzIsInB1ciI6ImJsb2JfaWQifX0=--c25ea53cae1b113417c9345dab19b95d3b406efd/Screenshot 2026-06-06 at 00.42.36.png)
+<img width="415" height="389" alt="image" src="https://github.com/user-attachments/assets/3212f08a-1b40-480b-a747-221cbf5d3ea3" />
+
 
 I also made the gap for the loader part 1 marginally bigger. This should hopefully help with the jamming issue. 
 
 Later today, I will send this to print, so I can have the whole non-motor part working. 
 
-![Screenshot 2026-06-06 at 00.37.35.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NzMsInB1ciI6ImJsb2JfaWQifX0=--033addb1301d42c02e921d77fc2cc28b01721984/Screenshot 2026-06-06 at 00.37.35.png)
+<img width="421" height="318" alt="image" src="https://github.com/user-attachments/assets/acae24d5-0990-4a00-934b-b3063bba4ade" />
+
 
 
 Tasks now: 
@@ -629,10 +666,10 @@ Tasks now:
 I did some more soldering practice. (Image - pins on the left)
 
 I used some more flux this time, and I got *some* decent connections. I also tried de-soldering, but not to much success. 
+<img width="353" height="474" alt="image" src="https://github.com/user-attachments/assets/ba9eb517-caee-4c4b-9203-1bab308a2464" />
 
-![IMG_3773.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NzYsInB1ciI6ImJsb2JfaWQifX0=--4ace167452550299b9b163ae127e81dea489687f/IMG_3773.jpeg)
+<img width="360" height="482" alt="image" src="https://github.com/user-attachments/assets/40bd4655-ee5c-446e-babd-ad59853f65ad" />
 
-![IMG_3774.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg0NzQsInB1ciI6ImJsb2JfaWQifX0=--ccafb61a9e9f4a06d78d5491160ae4f5d39900c6/IMG_3774.jpeg)
 
 Slightly foolishly, I decided to start soldering the LCD backpack module on. It therefore got attached a bit slanted - not a completely detrimental issue (hopefully), but I could’ve done with some more practice. 
 
@@ -680,28 +717,31 @@ I found a the datasheet (screenshot later) and got this circuit.
 
 
 ### Arduino Coding
+<img width="639" height="448" alt="image" src="https://github.com/user-attachments/assets/3a2aef4b-a5ac-4b02-a717-ea4c16e335d5" />
+
 
 For background, I only know some basic python. 
 
 i just found out that variables have to be declared globally (Im pretty sure) before being formally given a value, unlike in python where I can just define it at any moment. 
 
 Trying to figure out the logic of the encoder: how is the “GND” pin the encoder pinC??? 
-
-![Screenshot 2026-06-06 at 23.42.56.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg5OTgsInB1ciI6ImJsb2JfaWQifX0=--62e12d6dec46097a1d9b788b7f21a329f7fc6de9/Screenshot 2026-06-06 at 23.42.56.png)
+<img width="750" height="434" alt="image" src="https://github.com/user-attachments/assets/b99ed5a3-75a8-40d0-88dc-410618be8ffe" />
 
 I am just so confused here. I am following a tutorial of some sort, but using it as a guide. 
 
-![Screenshot 2026-06-06 at 23.58.07.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg5OTksInB1ciI6ImJsb2JfaWQifX0=--867130e46858a973e9ef39d88a60a37ce481a760/Screenshot 2026-06-06 at 23.58.07.png)
+<img width="407" height="474" alt="image" src="https://github.com/user-attachments/assets/6ad455a0-8466-438e-add7-01a2d810e148" />
+
 
 Below is my own code. 
 I made some changes, notably to the result of the logic, because I want to use these values to translate to outputs for the motor to use. 
 Turning clockwise would increase the position -> the speed, and encoder position of 0 means that the speed would be 0.
 
-![Screenshot 2026-06-06 at 23.58.01.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkwMDAsInB1ciI6ImJsb2JfaWQifX0=--4f252ace74eeef11d8691861c005a6c5c004fc61/Screenshot 2026-06-06 at 23.58.01.png)
+<img width="365" height="401" alt="image" src="https://github.com/user-attachments/assets/ca0f1048-743e-40ff-b218-285aa0134f21" />
+
 
 I sometimes get these readings, , even though I’m only turning it in one direction. I’m guessing this is due to inaccuracies in the encoder module. 
+<img width="906" height="219" alt="image" src="https://github.com/user-attachments/assets/a289e38a-6fce-4750-880e-3bc907df32e3" />
 
-![Screenshot 2026-06-07 at 00.07.47.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkwMDEsInB1ciI6ImJsb2JfaWQifX0=--be23bc84eacd3486e623d14267a571e84660188d/Screenshot 2026-06-07 at 00.07.47.png)
 
 
 The next step is connecting the motor to the circuit and using these encoder readings as inputs for the motor. 
@@ -710,15 +750,19 @@ So I couldn’t find a suitable power supply for the motor - I implemetned the l
 
 I used the map() function to map the encoder’s values (capped at 20 - more on this later) to a range between 0-255, to represent the duty cycle of the pwm signal, which will be used to control the DC motor’s speed.
 
-![Screenshot 2026-06-06 at 23.58.01.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkwMDIsInB1ciI6ImJsb2JfaWQifX0=--77c2df7f8192d3f2bb13880532a8c38968eff478/Screenshot 2026-06-06 at 23.58.01.png)
+<img width="370" height="413" alt="image" src="https://github.com/user-attachments/assets/1d40ab89-6723-4ea7-9109-69ee5394eef6" />
+
 
 I can’t think of how to cap the encoder position at 20, however. I need to find a solution. 
-![Screenshot 2026-06-07 at 00.43.43.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkwMDMsInB1ciI6ImJsb2JfaWQifX0=--3baaf63b10d63e9b207ca46efb3ff0286ef44b3e/Screenshot 2026-06-07 at 00.43.43.png)
+<img width="212" height="100" alt="image" src="https://github.com/user-attachments/assets/3cc9cf35-4a9f-4147-902c-9df07de9c6c8" />
+
 
 I was planning on controlling the motor speed using these encoder values, 
 but I unfortunately don't have a power supply at the moment, so I couldn't test the motor 
 (I had the plug, just not the EU adapter)
-![IMG_3779.jpeg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjkwMDQsInB1ciI6ImJsb2JfaWQifX0=--ac2300e284080307928043893b140e597de8df3a/IMG_3779.jpeg)
+<img width="636" height="487" alt="image" src="https://github.com/user-attachments/assets/5bcac8a7-7175-48e9-ae08-4ab3dda685db" />
+
+
 
 Next Tasks: 
 Get a power supply and test the motor
